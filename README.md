@@ -3,20 +3,19 @@ Fish-VR
 
 OS: Linux, Ubuntu 12.04
 
-A virtual reality assay for larval zebrafish including code for Optokinetic and Optomotive reflex, and a classical conditioning assay with a visual conditioned stimulus.
+A virtual reality assay for larval zebrafish including code for optokinetic (OKR) and optomotive reflex (OMR), and a classical conditioning assay with a visual conditioned stimulus.
 
 Additional equipment: 
 ---------------------
 Beamer (Optoma), Camera (Point Grey Research), Infrared illumination /w filter, laser (Roithner), Arduino Mega board. 
 
-Additinal software: 
+Additional software: 
 -------------------
 ROS for creating the visual stimulus, Motmot (Straw, A.D. and Dickinson, M.H. (2009) 
 ) for communicating with the camera, Arduino software /w pyFirmata for communicating with the laser
 
 Stimulus:
 ---------
-
 A bar grating (red or white with black) which is moving in the OKR and OMR assay and standing in the classical conditioning assay. 
 The unconditioned stimulus in the classical conditioning assay is a laser. 
 
